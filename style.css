@@ -1,0 +1,16 @@
+@keyframes smoothScrollUp {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  .animate-scroll-slow-up {
+    animation: smoothScrollUp 20s linear infinite; 
+  }
+
+  .animate-scroll-slow-up:hover {
+    animation-play-state: paused;
+  }
